@@ -107,7 +107,7 @@ body {
 .quality{
     position: absolute;
     top: 196px;
-    left: 60%;
+    left: 55%;
     transform: translateX(-50%);
     background-color: #1f1f1f;
     color: #ffffff;
