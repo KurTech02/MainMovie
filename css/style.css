@@ -85,7 +85,7 @@ body {
     width: 50%;
     height: 50%;
     object-fit: cover;
-    min-width: 480px;
+    
 }
 .movies-box a{
     text-align:center;
