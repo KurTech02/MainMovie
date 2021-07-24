@@ -20,9 +20,9 @@
             <!--text--------->
             <a href="#">
        <center><h5><i>To watch the movie please click the link below.<i></h5><center>
-	<div class="button">
-  <center><button class="glow-on-hover" onclick="checkscope()"/>Click this to watch "My Amanda (2021)"</button> <center>
-	</div>
+	
+  <center><button class="glow-on-hover" onmousedown="sound.play()" onclick="checkscope()"/>Click this to watch "My Amanda (2021)"</button> <center>
+	
 	<div class="text">
 <h2>My Amanda</h2>
 <h6>2021 | 13+ | 1h 29m | Romantic Movies</h6>
@@ -38,8 +38,8 @@ Starring:Piolo Pascual, Alessandra de Rossi, KC Montero</h4>
 	}
 
 	//-->
-		var tut = new Audio();
-tut.src = "sparkle.mp3";
+		var sound = new Audio();
+sound.src = "sound.mp3";
 </script>
 </body>
 </head></html>
