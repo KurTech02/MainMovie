@@ -98,13 +98,13 @@ body {
 }
 .quality{
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #1f1f1f;
     color: #ffffff;
     padding: 5px 20px;
-    font-weight: 250;
+    font-weight: 500;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
